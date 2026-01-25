@@ -1,0 +1,34 @@
+### =====================================================
+### Microsserviço: event-balance
+### Ambiente: Docker
+### Porta: 3003
+### Base URL
+### =====================================================
+
+@baseUrl = http://localhost:3003
+
+### =====================================================
+### Health Check
+### =====================================================
+
+GET {{baseUrl}}/actuator/health
+Accept: application/json
+
+
+### =====================================================
+### Consultar balance da conta
+### =====================================================
+
+GET {{baseUrl}}/balances/acc-from-1
+Accept: application/json
+
+
+### =====================================================
+### Listar contas (com paginação)
+### page: página (inicia em 0)
+### size: quantidade de registros por página
+### sort: campo, direção (asc | desc)
+### =====================================================
+
+GET {{baseUrl}}/balances?page=0&size=10&sort=createdAt,desc
+Accept: application/json

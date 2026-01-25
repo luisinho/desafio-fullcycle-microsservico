@@ -1,0 +1,21 @@
+# ===============================
+# Volumes MySQL (Docker)
+# ===============================
+.balance_mysql_data/
+.wallet_mysql_data/
+
+# ===============================
+# Eclipse / Spring Tool Suite
+# ===============================
+.metadata/
+
+# ===============================
+# Sistema
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# Walletcore - Docker volumes
+# ===============================
+walletcore/.docker/
