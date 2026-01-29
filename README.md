@@ -1,10 +1,10 @@
 # desafio-fullcycle-microsservico
 Projeto sobre microsserviços e da arquitetura baseada em eventos
-## Sobre o projeto
-  # Desenvolver um microsserviço para receber via Kafka os eventos gerados pelo microsserviço "Wallet Core" e persistir no banco de dados os balances atualizados para cada conta.
-  # Criar um endpoint: "/balances/{account_id}" que exibe o balance atualizado.
-  # Criar migrations para popular dados fictícios em ambos bancos de dados dos microserviços.
-  # Gerar um "event-balance.http" para realizar a chamada do novo microsserviço "event-balance".
+# Sobre o projeto
+  Desenvolver um microsserviço para receber via Kafka os eventos gerados pelo microsserviço "Wallet Core" e persistir no banco de dados os balances atualizados para cada conta.
+  Criar um endpoint: "/balances/{account_id}" que exibe o balance atualizado.
+  Criar migrations para popular dados fictícios em ambos bancos de dados dos microserviços.
+  Gerar um "event-balance.http" para realizar a chamada do novo microsserviço "event-balance".
 
 # Tecnologias utilizadas
   Linguagem de programação java versão 21 e golang:1.21
