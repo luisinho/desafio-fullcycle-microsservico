@@ -38,6 +38,7 @@ Projeto sobre microsserviços e da arquitetura baseada em eventos
 
   # Para para realizar a chamada do novo microsserviço "event-balance"
     O arquivo "event-balance.http" está dentro da pasta "api" do projeto.
+  ```
 
 # Autor
 
